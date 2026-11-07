@@ -1,0 +1,27 @@
+## Codec 2 for ESP-IDF: the build of David Rowe's low-bitrate speech codec that Meshtastic's firmware uses on the
+## ESP32 (meshtastic/ESP32_Codec2, from deulis/ESP32_Codec2), kept by Kode for MeshKode. See README.md.
+version: "1.1.0"
+description: "Codec 2 speech codec, 3200 to 700B bit/s (Meshtastic's ESP32 build), as an ESP-IDF component"
+url: "https://github.com/kodediy/codec2"
+repository: "https://github.com/kodediy/codec2.git"
+issues: "https://github.com/kodediy/codec2/issues"
+## The repository's LICENSE is the GPL, version 3. The Codec 2 sources inside it carry their authors' LGPL-2.1
+## notices and kiss_fft its BSD-3-Clause one; README.md, "Licence".
+license: "GPL-3.0-only"
+targets:
+  - esp32
+  - esp32s3
+  - esp32p4
+tags:
+  - codec2
+  - audio
+  - speech
+  - codec
+  - meshtastic
+dependencies:
+  idf: ">=6.1"
+files:
+  exclude:
+    - "hardware.jpg"
+    - "examples/**/*"
+    - "tools/**/*"

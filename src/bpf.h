@@ -1,6 +1,6 @@
 #define BPF_N 101
 
-float bpf[]={
+const float bpf[]={
   0.002174,
   0.003245,
   0.002147,

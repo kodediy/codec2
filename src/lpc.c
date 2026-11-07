@@ -200,7 +200,7 @@ void levinson_durbin(
 
 void inverse_filter(
   float Sn[],	/* Nsam input samples */
-  float a[],	/* LPCs for this frame of samples */
+  const float a[],	/* LPCs for this frame of samples */
   int Nsam,	/* number of samples */
   float res[],	/* Nsam residual samples */
   int order	/* order of LPC */

@@ -1,0 +1,11 @@
+# tools/host_test.sh hashes (sha256): platform | mode | encoded bits | decoded samples. Regenerate
+# with --update only for a change that is meant to alter the output, and say so in its commit.
+input	8a49ba3c3cb2c95821242312ae81ade16dae1a835a6d186164c7a949140b3792
+Darwin arm64 | Apple clang version 21.0.0 (clang-2100.4.1.1)	0	66e96863fe71445bc2694925578b005282b347bea8821b96c624cb6a422d2773	1a981bb9a6fe1daeb5c1210b481e204f6b98be6c91847f4a3c14b339405d23d1
+Darwin arm64 | Apple clang version 21.0.0 (clang-2100.4.1.1)	1	a8d88794d2a476a2af0380ff1b1be58d858b22ee49b8b376e22e998bf178badf	d7b49862a366618908bdb3dc061b95d13da0df324334db415598bf96e12d6837
+Darwin arm64 | Apple clang version 21.0.0 (clang-2100.4.1.1)	2	cf8539ab9b6c2c3303c3715c83f4463035d6c89118f166186173f0c4fb5fdb2c	bfa0f8ab8cac129b6aea7c4ff17baadb614392e295c88c09cbcd584c3b143b44
+Darwin arm64 | Apple clang version 21.0.0 (clang-2100.4.1.1)	3	8080d3c7530bd03871012fd0708f95cf93fc6195b59fb5017af4bd67d12229c9	1c2c136f1ecfbab3c3c07a93c00e4d8bebd3ab445c0559d4e87521c2ed7365a3
+Darwin arm64 | Apple clang version 21.0.0 (clang-2100.4.1.1)	4	24a59123a85a355e2be8e50ee54162858ea2e78d6b253a76c03dc35086f8043d	af2800dd03e122b71b493a3b68e1efcf2dfc1a645185621cb6113b9ae6eace25
+Darwin arm64 | Apple clang version 21.0.0 (clang-2100.4.1.1)	5	04b1fe696b7bb37184f803d99b184f4440823b02e0d9f28e83c69537389efb32	c7363cb8f0b2329dd756f8c71bf515448575a826dee30745ffd8ec927c634da3
+Darwin arm64 | Apple clang version 21.0.0 (clang-2100.4.1.1)	6	d1ac2318fc4423b5a1c8eff6eeb236cb8ba70b1fb848274edc40b84bf4426a1f	7179bd3e99875fb5631f6d28e7f7d40f62c702e616dd8aef1ac9b9a34ac3f1ca
+Darwin arm64 | Apple clang version 21.0.0 (clang-2100.4.1.1)	7	b953c9c732bbe131239d3665228aa0edf1ab3de06ec450f5ca095b5654bb81f7	f2f0566fe2401d6eaa0f319adef2651bb2c7f2739c47e4ff03cfe7927cbf535f

@@ -3,7 +3,7 @@
 ## For a registry. A git dependency is named after its key instead (esp32_codec2 in MeshKode), and ESP-IDF
 ## ignores this field for it.
 name: "codec2"
-version: "1.1.0"
+version: "1.1.2"
 description: "Codec 2 speech codec, 3200 to 700B bit/s (Meshtastic's ESP32 build), as an ESP-IDF component"
 url: "https://github.com/kodediy/codec2"
 repository: "https://github.com/kodediy/codec2.git"

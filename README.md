@@ -135,4 +135,6 @@ that differ, and, with `--against`, on any byte or sample that differs. `CC` and
 - `ButterworthFilter`, `SampleFilter`, `FastAudioFIFO` and the Arduino example: Deulis Antonio Pelegrin Jaime.
 - The files Kode added (`tools/host_test.*`) are GPL-3.0-or-later.
 
-`idf_component.yml` declares `GPL-3.0-only`, after the repository's `LICENSE`.
+`idf_component.yml` declares `LGPL-2.1-only AND BSD-3-Clause`: that is what the component compiles (the Codec 2 sources
+and kiss_fft). The GPL-3.0 of `LICENSE` covers the Arduino helpers and the host check, which the component does not
+build.

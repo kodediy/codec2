@@ -8,9 +8,9 @@ description: "Codec 2 speech codec, 3200 to 700B bit/s (Meshtastic's ESP32 build
 url: "https://github.com/kodediy/codec2"
 repository: "https://github.com/kodediy/codec2.git"
 issues: "https://github.com/kodediy/codec2/issues"
-## The repository's LICENSE is the GPL, version 3. The Codec 2 sources inside it carry their authors' LGPL-2.1
-## notices and kiss_fft its BSD-3-Clause one; README.md, "Licence".
-license: "GPL-3.0-only"
+## What the component compiles: the Codec 2 sources (LGPL-2.1, their authors' notices) and kiss_fft (BSD-3-Clause).
+## The repository's LICENSE (GPL-3.0) covers the Arduino helpers, which the component does not build; README.md, "Licence".
+license: "LGPL-2.1-only AND BSD-3-Clause"
 targets:
   - esp32
   - esp32s3

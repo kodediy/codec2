@@ -134,10 +134,9 @@ if [ -n "$against" ]; then
     run "$work/theirs" theirs
     printf '%-5s %-6s %-26s %-26s %s\n' mode rate "encoded bits" "decoded (same bits)" "decoded (own bits)"
     for m in "${modes[@]}"; do
-        nbyte=$(( $(wc -c < "$work/ours.$m.bit") ))
         if cmp -s "$work/ours.$m.bit" "$work/theirs.$m.bit"; then benc="identical"
         else
-            benc="$(cmp -l "$work/ours.$m.bit" "$work/theirs.$m.bit" 2>/dev/null | wc -l | tr -d ' ') bytes differ"
+            benc="$( (cmp -l "$work/ours.$m.bit" "$work/theirs.$m.bit" 2>/dev/null || true) | wc -l | tr -d " ")/$(wc -c < "$work/ours.$m.bit" | tr -d " ") bytes differ"
             fail=1
         fi
         # The other decoder on our bits isolates the decoder; its own bits show the whole chain.

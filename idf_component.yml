@@ -1,5 +1,8 @@
 ## Codec 2 for ESP-IDF: the build of David Rowe's low-bitrate speech codec that Meshtastic's firmware uses on the
 ## ESP32 (meshtastic/ESP32_Codec2, from deulis/ESP32_Codec2), kept by Kode for MeshKode. See README.md.
+## For a registry. A git dependency is named after its key instead (esp32_codec2 in MeshKode), and ESP-IDF
+## ignores this field for it.
+name: "codec2"
 version: "1.1.0"
 description: "Codec 2 speech codec, 3200 to 700B bit/s (Meshtastic's ESP32 build), as an ESP-IDF component"
 url: "https://github.com/kodediy/codec2"
